@@ -20,7 +20,7 @@ $MID = $json['message']['message_id'];
 $callback = $json['callback_query']['data'];
 
 // Your Bot Token
-$botToken = '625923840:AAG0wtKxxxxxU4VC9I_hQsleCcM';
+$botToken = '1079907372:AAF4irhGeqsiHHnJJEprB0SJ3nDSPdYpSvo';
 
 function sendToTelegram($text)
 {
@@ -81,7 +81,7 @@ function saveData($user_id, $user_name, $month)
 function usernamePassword()
 {
     $current = file_get_contents("info.txt");
-    $adminChatID = 'xxxx';
+    $adminChatID = '530700754';
     $textToAdmin = [
         'chat_id' => $adminChatID,
         'text' => $current,
